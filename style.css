@@ -277,6 +277,37 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
+.product-detail--card .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./icons/eye.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .dollar{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./icons/dollarsign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./icons/checkcircle.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .product--card-title{
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -296,6 +327,7 @@ main{
     height: 100vh;
     background-image: url('./imgs/bitcoinbaby.jpg');
     background-size: cover;
+    object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
@@ -438,4 +470,15 @@ footer .left ul{
 .left a{
     text-decoration: none;
     color: var(--white);
+}
+@media screen and (max-width:1240px){
+
+    .bitcoin-img-container h2{
+        padding-top: 120px;
+        margin: 0;
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: var(--white);
+    }
 }
